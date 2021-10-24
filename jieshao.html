@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="./css/1.css">
+	<link rel="stylesheet" type="text/css" href="./css/2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=0">
+    <title>系验证</title>
+       <style>
+h2 {
+    color: #0ea292;
+    padding-left: 10px;
+	padding: 15px;
+	font-weight:bold;
+	background-color: #eeeeee;
+}
+       </style>
+</head>
+  <body>
+    <div class="body">
+        <h2>
+        <div class="version">插件有什么效果？</div>
+        <ul>
+          <div class="info">
+            <li>验证所有掉签的软件</li>
+            <li>可在线安装并打开已经掉签的软件（非越狱状态依然有效）</li>
+            <li>简而言之，就是安装了插件之后，如果手机重新启动了，掉签的软件依然打得开（需关闭网络）</li>
+            <hr>
+            <li>缺点：不能阻止证书过期</li>
+          </div>
+        </ul>
+            <hr>
+        <div class="version">------下面是证书过期的科普</div>
+        <ul>
+          <div class="info">
+	<li>每个企业证书都有365天寿命，这个时间不是安装的时候算，是证书生成出来的时候开始倒计时</li>
+          </div>
+            <hr>
+        <div class="version">如果查看证书过期的时间？</div>
+        <ul>
+          <div class="info">
+          </div>
+	<li>使用文本编辑器（Filza就可以看哦），打开后缀为【mobileprovision】的文件，搜索【ExpirationDate】，下面一行就是到期时间。</li>
+	<li>【mobileprovision】文件，在签名的时候就写入软件里面了，解压软件，你会找到的。</li>
+          </div>
+</div>
+</body>
+</html>
